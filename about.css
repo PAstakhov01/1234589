@@ -1,0 +1,850 @@
+
+@font-face {
+font-family: 'Century Gothic';
+
+ src: url(fonts/CenturyGothic.ttf) ;
+
+}
+
+
+@media (min-width: 320px) { 
+  .about_pic {
+  display: none;
+}
+.about_cont {
+  display: flex;
+  margin-bottom: 3em;
+}
+.about-text_cont {
+  margin-left: 1em;
+}
+.about-text {
+
+font-family: Century Gothic;
+font-size: 1em;
+line-height: 1em;
+/* or 133% */
+margin-bottom: 1em;
+
+color: #000000;
+}
+.container-about {
+      width: 100%;
+    padding-right: 15px;
+        max-width: 280px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2em;
+}
+.about-png {
+  width: 100%;
+}
+.item_text {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 1em;
+line-height: 1em;
+  margin-top: 0.75em;
+color: #000000;
+}
+.item_title {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 1.2em;
+line-height: 1.2em;
+
+color: #000000;
+}
+.about_pic-tablet {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  display: block;
+}
+
+  .main__title {
+padding-top: 2em;
+padding-bottom: 2em;
+font-family: Century Gothic;
+font-size: 2em;
+line-height: 1em;
+/* identical to box height */
+font-weight: 600;
+text-align: center;
+
+color: #000000;
+}
+
+.call__cont {
+  display: flex;
+}
+.call__phone {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 1em;
+line-height: 1em;
+text-align: center;
+text-decoration: none;
+color: #EFDFC8;
+
+}
+.call__phone:hover {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 1em;
+line-height: 1em;
+text-align: center;
+text-decoration: none;
+color: #EFDFC8;
+
+}
+.call__back {
+font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 0.8em;
+line-height: 1em;
+text-decoration: none;
+text-align: center;
+color: #EFDFC8;
+}
+.call__back:hover {
+font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 0.8em;
+line-height: 1em;
+text-decoration: none;
+text-align: center;
+color: #EFDFC8;
+}
+.call {
+width: 170px;
+    margin: 0 auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.call__img {
+  margin-right: 0.5em;
+}
+.logo_pic {
+ width: 195px;
+    height: auto;
+    margin-left: 1em;
+}
+.nav-item {
+  margin-left: 0.5em;
+}
+.nav-link {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 1em;
+line-height: 1em;
+text-align: center;
+
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  
+  background: #821111;
+}
+.footer_icons {
+  display: flex;
+}
+.footer_cont-text {
+  margin-top: 1em;
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 1em
+line-height: 1em;
+text-align: center;
+color: #D8D1AD;
+}
+.footer_cont {
+ 
+    margin: 0 auto;
+  width: 210px;
+}
+.footer_icon {
+  margin-left: 1em;
+}
+.footer_icons {
+  margin-top: 1em;
+  margin-left: 1.75em;
+}
+.footer_lists {
+  margin-top: 2em;
+  display: flex;
+  margin-left: 0.2em;
+}
+.footer_link {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 1em;
+line-height: 1em;
+list-style-type: none;
+text-decoration: none;
+color: #EFDFC8;
+
+}
+.footer_link:hover {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 1em;
+line-height: 1em;
+list-style-type: none;
+text-decoration: none;
+color: #EFDFC8;
+}
+.footer-item {
+  margin-top: 1em;
+  list-style-type: none;
+}
+.email {width: 192px;
+    margin: 0 auto;
+   display: flex;
+}
+.email_text {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 0.9em;
+padding-top: 0.25em;
+line-height: 1em;
+text-align: center;
+ margin-left: 0.5em;
+color: #EFDFC8;
+
+}
+.geo {
+width: 192px;
+    margin: 0 auto;
+  padding-top: 1em;
+   display: flex;
+}
+.geo_text {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 0.9em;
+line-height: 1em;
+padding-top: 0.25em;
+text-align: right;
+ margin-left: 0.5em;
+color: #EFDFC8;
+
+}
+.footer_contacts {
+    margin-top: 1em;
+
+}
+.footer_main-cont {
+  width:  310px;
+  display: block;
+  padding-top: 1em;
+  margin: 0 auto;
+  padding-bottom: 1em;
+}
+
+
+}
+
+
+
+
+@media (min-width: 768px) { 
+.about_pic {
+  display: none;
+}
+.about_cont {
+  display: flex;
+  margin-bottom: 3em;
+}
+.about-text_cont {
+  margin-left: 1em;
+}
+.about-text {
+
+font-family: Century Gothic;
+font-size: 1em;
+line-height: 1em;
+/* or 133% */
+margin-bottom: 1em;
+
+color: #000000;
+}
+.container-about {
+      width: 100%;
+    padding-right: 15px;
+        max-width: 720px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2em;
+}
+.about-png {
+  width: 100%;
+}
+.item_text {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 1em;
+line-height: 1em;
+  margin-top: 0.75em;
+color: #000000;
+}
+.item_title {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 1.2em;
+line-height: 1.2em;
+
+color: #000000;
+}
+.about_pic-tablet {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  display: block;
+}
+
+  .main__title {
+padding-top: 2em;
+padding-bottom: 2em;
+font-family: Century Gothic;
+font-size: 2em;
+line-height: 1em;
+/* identical to box height */
+font-weight: 600;
+text-align: center;
+
+color: #000000;
+}
+
+.call__cont {
+  display: flex;
+}
+.call__phone {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 1em;
+line-height: 1em;
+text-align: center;
+text-decoration: none;
+color: #EFDFC8;
+
+}
+.call__phone:hover {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 1em;
+line-height: 1em;
+text-align: center;
+text-decoration: none;
+color: #EFDFC8;
+
+}
+.call__back {
+font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 0.8em;
+line-height: 1em;
+text-decoration: none;
+text-align: center;
+color: #EFDFC8;
+}
+.call__back:hover {
+font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 0.8em;
+line-height: 1em;
+text-decoration: none;
+text-align: center;
+color: #EFDFC8;
+}
+.call {
+width: 170px;
+    margin: 0 auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.call__img {
+  margin-right: 0.5em;
+}
+.logo_pic {
+  margin-right: 3em;
+  margin-left: 1em;
+}
+.nav-item {
+  margin-left: 0.5em;
+}
+.nav-link {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 1em;
+line-height: 1em;
+text-align: center;
+
+}
+
+
+.footer {
+  display: flex;
+  width: 100%;
+  height: 250px;
+  background: #821111;
+}
+.footer_icons {
+  display: flex;
+}
+.footer_cont-text {
+  margin-top: 1em;
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 1em
+line-height: 1em;
+text-align: center;
+color: #D8D1AD;
+}
+.footer_cont {
+  margin-left: 0.5em;
+  width: 210px;
+}
+.footer_icon {
+  margin-left: 1em;
+}
+.footer_icons {
+  margin-top: 1em;
+  margin-left: 1.75em;
+}
+.footer_lists {
+  margin-top: 2em;
+  display: flex;
+  margin-left: 0.2em;
+}
+.footer_link {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 1em;
+line-height: 1em;
+list-style-type: none;
+text-decoration: none;
+color: #EFDFC8;
+
+}
+.footer_link:hover {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 1em;
+line-height: 1em;
+list-style-type: none;
+text-decoration: none;
+color: #EFDFC8;
+}
+.footer-item {
+  margin-top: 1em;
+  list-style-type: none;
+}
+.email {
+   display: flex;
+}
+.email_text {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 0.9em;
+line-height: 1em;
+text-align: center;
+ margin-left: 0.5em;
+color: #EFDFC8;
+
+}
+.geo {
+
+  margin-top: 1em;
+   display: flex;
+}
+.geo_text {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 0.9em;
+line-height: 1em;
+text-align: center;
+ margin-left: 0.5em;
+color: #EFDFC8;
+
+}
+.footer_contacts {
+    margin-top: 1em;
+  margin-left: 1.5em;
+}
+.footer_main-cont {
+  width:  750px;
+  display: flex;
+  padding-top: 1em;
+  margin: 0 auto;
+}
+
+
+
+
+}
+
+
+
+@media (min-width: 1007px) { 
+  .footer {
+  display: flex;
+  width: 100%;
+  height: 250px;
+  background: #821111;
+}
+.footer_icons {
+  display: flex;
+}
+.footer_cont-text {
+  margin-top: 1em;
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 1em
+line-height: 1em;
+text-align: center;
+color: #D8D1AD;
+}
+.footer_cont {
+ 
+  width: 210px;
+}
+.footer_icon {
+  margin-left: 1em;
+}
+.footer_icons {
+  margin-top: 1em;
+  margin-left: 1.5em;
+}
+.footer_lists {
+  display: flex;
+  margin-left: 4em;
+}
+.footer_link {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 1em;
+line-height: 1em;
+list-style-type: none;
+text-decoration: none;
+color: #EFDFC8;
+
+}
+.footer_link:hover {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 1em;
+line-height: 1em;
+list-style-type: none;
+text-decoration: none;
+color: #EFDFC8;
+}
+.footer-item {
+  margin-top: 1em;
+  list-style-type: none;
+}
+.email {
+   display: flex;
+}
+.email_text {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 0.9em;
+line-height: 1em;
+text-align: center;
+ margin-left: 0.5em;
+color: #EFDFC8;
+
+}
+.geo {
+  margin-top: 1em;
+   display: flex;
+}
+.geo_text {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 0.9em;
+line-height: 1em;
+text-align: center;
+ margin-left: 0.5em;
+color: #EFDFC8;
+
+}
+.footer_contacts {
+  margin-left: 4em;
+}
+.footer_main-cont {
+  width: 950px;
+  display: flex;
+  margin: 0 auto;
+}
+.call__cont {
+  display: flex;
+}
+.call__phone {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 1em;
+line-height: 1em;
+text-align: center;
+text-decoration: none;
+color: #EFDFC8;
+
+}
+.call__phone:hover {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 1em;
+line-height: 1em;
+text-align: center;
+text-decoration: none;
+color: #EFDFC8;
+
+}
+.call__back {
+font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 0.8em;
+line-height: 1em;
+text-decoration: none;
+text-align: center;
+color: #EFDFC8;
+}
+.call__back:hover {
+font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 0.8em;
+line-height: 1em;
+text-decoration: none;
+text-align: center;
+color: #EFDFC8;
+}
+.call {
+  margin-right: 1em;
+}
+.call__img {
+  margin-right: 0.5em;
+}
+.logo_pic {
+  width: unset;
+  margin-right: 1em;
+  margin-left: 1em;
+}
+.nav-item {
+  margin-left: 0.5em;
+}
+.nav-link {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 0.75em;
+line-height: 1em;
+text-align: center;
+
+}
+
+}
+
+
+
+
+
+@media (min-width: 1026px) { 
+  .about-png {
+    width: unset;
+  }
+.about_pic {
+  display: block;
+}
+.about_cont {
+  display: flex;
+  margin-bottom: 3em;
+}
+.about-text_cont {
+  margin-left: 1em;
+}
+.about-text {
+
+font-family: Century Gothic;
+font-size: 1em;
+line-height: 1em;
+/* or 133% */
+margin-bottom: 1em;
+
+color: #000000;
+}
+.container-about {
+      width: 100%;
+    padding-right: 15px;
+        max-width: 1245px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2em;
+}
+.item_text {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 1em;
+line-height: 1em;
+  margin-top: 0.75em;
+color: #000000;
+}
+.item_title {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 1.2em;
+line-height: 1.2em;
+
+color: #000000;
+}
+.about_pic-tablet {
+  display: none;
+}
+
+  .main__title {
+padding-top: 2em;
+padding-bottom: 2em;
+font-family: Century Gothic;
+font-size: 2em;
+line-height: 1em;
+/* identical to box height */
+font-weight: 600;
+text-align: center;
+
+color: #000000;
+}
+
+.call__cont {
+  display: flex;
+}
+.call__phone {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 1em;
+line-height: 1em;
+text-align: center;
+text-decoration: none;
+color: #EFDFC8;
+
+}
+.call__phone:hover {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 1em;
+line-height: 1em;
+text-align: center;
+text-decoration: none;
+color: #EFDFC8;
+
+}
+.call__back {
+font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 0.8em;
+line-height: 1em;
+text-decoration: none;
+text-align: center;
+color: #EFDFC8;
+}
+.call__back:hover {
+font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 0.8em;
+line-height: 1em;
+text-decoration: none;
+text-align: center;
+color: #EFDFC8;
+}
+.call {
+  margin-right: 3em;
+}
+.call__img {
+  margin-right: 0.5em;
+}
+.logo_pic {
+  margin-right: 1.5em;
+  margin-left: 2em;
+}
+.nav-item {
+  margin-left: 0.75em;
+}
+.nav-link {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 0.9em;
+line-height: 1em;
+text-align: center;
+
+}
+
+}
+
+
+
+
+
+
+
+.dropdown-item {
+  font-family: Century Gothic;
+
+font-size: 1em;
+line-height: 1em;
+text-align: center;
+margin-bottom: 1em;
+margin-top: 1em;
+}
+
+
+.owl-carousel {
+  display:  flex;
+}
